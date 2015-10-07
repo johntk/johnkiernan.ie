@@ -1,0 +1,110 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>John kiernan - Software Developer, Web Designer, Technician</title>
+    <meta name="description" content="Currently a student programer, software developer. FETAC qualified as an IT Technician and web devolper.">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+     <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+	 <link rel="shortcut icon"  href="/assets/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/flip.css" />
+
+	<!--[if lt IE 9]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <script src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        // Load jQuery
+        google.load("jquery", "1");
+    </script>
+    <script src="/assets/js/jquery-ui-1.7.2.custom.min.js"></script>
+    <script src="/assets/js/jquery.flip.js"></script>
+    <script src="/assets/js/jquery.flip.min.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+
+            $("#flipPad a:not(.revert)").bind("mouseover", function () {
+                var $this = $(this);
+                var img1 = $('.test');
+
+                $("#flipbox").flip({
+                    direction: $this.attr("rel"),
+                    color: $this.attr("rev"),
+                    content: $this.attr('title'),
+                   
+                })
+                return false;
+            });
+
+        });
+    </script>
+
+
+</head>
+
+	<body>
+	
+        <div id="Container">
+
+            <div id="Navmenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="apps.html">Apps</a></li>
+                    <li ><a href="qualifications.html">Qualifications</a></li>
+                    <li id="Contact"><a href="contact.html">Contact</a></li>
+                    <!--<li><a href="http://www.laptopdoc.ie">LaptopDoc</a></li>-->
+                    
+                </ul>
+            </div>
+
+            <div id="flipbox" >Hover over contact option</div>
+            <div id="flipPad">
+                <a href="#" class="left" rel="rl" rev="#39AB3E" title="johntk86@gmail.com">Email</a>
+                <a href="#" class="top" rel="bt" rev="#66b7d2" title="0857100495">Mobile</a>
+                <a href="https://plus.google.com/u/0/107215261984056857116/posts" class="bottom" rel="tb" rev="#dd4b39" title="Click to visit my G+ profile">Google+</a>
+                <a href="http://www.linkedin.com/in/johntk86" class="right" rel="lr" rev="#007baf" title="Click to visit my Linkedin profile">Linkedin</a>
+                
+            </div>
+
+            <div id="Contact-Form">
+                <form method="post" action="Contact.php" >
+                        Enter    your name: 
+                    <br />
+            
+                    <input type="text"  size="30" name="name" />
+                    <br />
+                    <br />
+                        E-mail    address:
+                    <br />
+            
+                    <input type="text"  size="30" name="email"/>
+                    <br />
+                    <br />
+                        Enter your      message:
+                    <br />
+            
+                    <textarea name="message" id="textarea" cols="40" rows="5"   ></textarea>
+                    <br />
+                    <br />
+
+                    <input type="submit" value="send" class="c" />
+                </form>
+            </div>
+
+        </div>
+
+        <footer id="Footer">
+            
+                    © 2014 johnkiernan.ie
+               
+        </footer>
+
+       
+        
+    </body>
+</html>

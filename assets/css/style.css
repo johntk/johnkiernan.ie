@@ -1,0 +1,201 @@
+body {
+    background-color: #808080;
+    margin: 0;
+    background-image: url('../images/wood-bg.jpg');
+}
+
+#Container {
+    border: 2px solid #252525;
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 800px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top:0;
+    margin-bottom:0;
+    
+}
+
+#leftContainer {
+    float: left;
+    width:23%;
+    /*padding-left:10px;*/
+}
+#rightContainer {
+    float: right;
+    width: 77%;
+    
+}
+
+#Navmenu {
+    font-family: Ropa Sans;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    border: 2px solid #252525;
+    background-color: #252525;
+    padding-top:40px;
+    padding-bottom:2px;
+
+    }
+
+    #Navmenu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        height:30px;
+    
+    }
+
+
+
+    #Navmenu a {
+
+        float:left;
+        margin: 5px;
+        font-size: 21px;
+        text-decoration: none;
+        color: #ffffff;
+        opacity: 1;
+        padding-left:23px;
+        padding-right:20px;
+        transition:  .25s ease-in-out;
+        -moz-transition:  .25s ease-in-out;
+        -webkit-transition: .25s ease-in-out;
+        text-shadow: 1px 1px 1px #000000;
+    }
+
+        #Navmenu a:focus {
+            color: #000000;
+
+        }
+
+        #Navmenu a:hover, #Home a, #Qualifications a, #Contact a, #Apps a {
+            margin-top: 2px; 
+            color: #fa4700;
+            padding-bottom: 0.1em;
+            text-shadow: 1px 1px 1px #000000;  
+            -webkit-transition: margin 0.5s ease-out;
+            -moz-transition: margin 0.5s ease-out;
+            -o-transition: margin 0.5s ease-out;
+     
+        }
+
+
+        #Navmenu a:active {
+            color: #ff0000;
+     
+        }
+
+
+#Profile {
+    font-family: Arial;
+    padding: 1em;
+    margin:10px;
+    height:710px;
+    line-height:40%;
+}
+    
+
+.pt {
+    color: #ffffff;
+}
+
+
+#img{
+    box-shadow: 7px 7px 5px #888888;
+    height:170px;
+    width:141px;
+    
+}
+
+#Footer {
+    font-family: Ropa Sans;
+    clear: both;
+    font-size: 18px;
+    background-color: #252525;
+    color: #ffffff;
+    padding-top: 20px;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 2px solid #252525;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+    margin-top:10px;
+}
+
+
+#Contact-Form {
+    font-family: Ropa Sans; 
+    color: #000000;
+    padding: 1em;
+    margin:10px;
+    margin-top:300px;
+}
+#Exams {
+    text-align:center;
+    font-family: Ropa Sans;
+}
+
+
+/*.item{
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}*/
+.test {
+    background-image: url('../images/GoogleLogo.png');
+}
+.sci-fi1   {
+
+    font-family: Ropa Sans;
+    font-size:18px;
+}
+.sci-fi2  {
+    font-family: Ropa Sans;
+    font-size:18px;
+
+}
+.sci-fi3 {
+    font-family: Ropa Sans;
+    font-size:18px;
+}
+.sci-fi4 {
+
+    font-family: Ropa Sans;
+    font-size:27px;
+}
+
+.Exam-container {
+
+    
+}
+
+    .Exam-container ul {
+
+        
+        width: 100%;
+        margin: auto;
+    }
+   
+
+    .Exam-container li {
+
+        list-style-type: none;
+        display:inline-block;
+        font-family: Ropa Sans;
+        font-size:22px;
+        padding-right:10px;
+        padding-left:10px;
+        font-weight:bold;
+        text-align:center;
+
+        
+    }

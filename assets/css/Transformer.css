@@ -1,0 +1,243 @@
+﻿
+
+
+#Trans {
+	height:900px;
+
+}
+
+.container {
+	width: 184px; height: 316px;
+	-webkit-perspective: 1000;
+    -ms-perspective: 1000;
+    -moz-perspective: 1000;
+    perspective: 1000;
+
+}
+
+.card {
+	width: 224px; height: 312px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: 0.5s;
+    -ms-transform-style: preserve-3d;
+	-ms-transition: 0.5s;
+    -moz-transform-style: preserve-3d;
+	-moz-transition: 0.5s;
+    transform-style: preserve-3d;
+	transition: 0.5s;
+    box-shadow: 7px 7px 5px #888888;
+    
+}
+	.container:hover .card {
+		-webkit-transform: rotateY(180deg);	
+        -ms-transform: rotateY(180deg);	
+        -moz-transform: rotateY(180deg);	
+        transform: rotateY(180deg);
+
+	}
+
+.face {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    
+}
+
+
+.one {
+	float: left; position:relative;  left:40px; top:30px;
+	-webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+}   
+
+
+	.one .front {
+		
+	}
+	.one .back {
+		width: 184px; height: 272px; padding: 20px; 
+		-webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+		background: #000000; 
+	}
+		.one .back h2 {
+			width: 187px; height: 42px; margin: 0 auto 20px auto;
+			 text-indent: -9999px; 
+		}
+		.one img {
+			float: right;
+		}
+		.one p {
+			float: left; width: 185px; margin: 0 0 25px 0;
+			font-size: 16px; line-height: 28px; color: #ffffff; 
+		}
+		.one dl {
+			font-size: 16px; font-weight: bold; 
+			line-height: 20px; color: #717171;
+			width: 164px; padding: 5px 10px; overflow: hidden; 
+			background: #cfcfcf;
+			-webkit-box-shadow: 0 1px 5px #888;
+            -ms-box-shadow: 0 1px 5px #888;
+            -moz-box-shadow: 0 1px 5px #888;
+            box-shadow: 0 1px 5px #888;
+			text-shadow: 0 1px 1px #f5f5f5;
+		}
+			.one dl dt {
+				float: left; clear: both;
+			}
+			.one dl dd {
+				float: right;
+			}
+
+	
+.two {
+	float: right; position: relative;  right:80px; top:30px;
+	-webkit-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+	.two .front {
+		
+	}
+	.two .back {
+		width: 184px; height: 272px; padding: 20px;
+		-webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+		background: #dd4b39; 
+	}
+		.two .back h2 {
+			width: 192px; height: 33px; margin: 0 auto 20px auto;
+			
+		}
+		.two img {
+			float: right;
+		}
+		.two p {
+			float: left; width: 185px; margin: 0 0 27px 0;
+			font-size: 16px; line-height: 28px; color: #ffffff; 
+		}
+		.two dl {
+			font-size: 16px; font-weight: bold; 
+			line-height: 20px; color: #717171;
+			width: 164px; padding: 5px 10px; overflow: hidden; 
+			background: #cfcfcf  repeat-y;
+			-webkit-box-shadow: 0 1px 5px #888;
+            -ms-box-shadow: 0 1px 5px #888;
+            -moz-box-shadow: 0 1px 5px #888;
+            box-shadow: 0 1px 5px #888;
+			text-shadow: 0 1px 1px #f5f5f5;
+		}
+			.two dl dt {
+				float: left; clear: both;
+			}
+			.two dl dd {
+				float: right;
+			}
+.three {
+	float: left; position: relative; right:150px; top:450px;
+	-webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+	.three .front {
+		
+	}
+	.three .back {
+		width: 184px; height: 272px; padding: 20px;
+		-webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+		background: #007baf; 
+	}
+		.three .back h2 {
+			width: 187px; height: 42px; margin: 0 auto 20px auto;
+			background: url(megatron-title.png); text-indent: -9999px; 
+		}
+		.three img {
+			float: right;
+		}
+		.three p {
+			float: left; width: 185px; margin: 0 0 20px 0;
+			font-size: 16px; line-height: 28px; color: #ffffff; 
+		}
+		.three dl {
+			font-size: 16px; font-weight: bold; 
+			line-height: 20px; color: #717171;
+			width: 164px; padding: 5px 10px; overflow: hidden; 
+			background: #cfcfcf  repeat-y;
+			-webkit-box-shadow: 0 1px 5px #888;
+            -ms-box-shadow: 0 1px 5px #888;
+            -moz-box-shadow: 0 1px 5px #888;
+            box-shadow: 0 1px 5px #888;
+			text-shadow: 0 1px 1px #f5f5f5;
+		}
+			.three dl dt {
+				float: left; clear: both;
+			}
+			.three dl dd {
+				float: right;
+			}
+
+	
+.four {
+	float: right; position:relative;  right:100px; top:130px;
+	-webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+	.four .front {
+		
+	}
+	.four .back {
+		width: 184px; height: 272px; padding: 20px;
+		-webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+		background: #000000; 
+	}
+		.four .back h2 {
+			width: 192px; height: 33px; margin: 0 auto 20px auto;
+			
+		}
+		.four img {
+			float: right;
+		}
+		.four p {
+			float: left; width: 185px; margin: 0 0 27px 0;
+			font-size: 16px; line-height: 28px; color: #ffffff; 
+		}
+		.four dl {
+			font-size: 16px; font-weight: bold; 
+			line-height: 20px; color: #717171;
+			width: 164px; padding: 5px 10px; overflow: hidden; 
+			background: #cfcfcf  repeat-y;
+			-webkit-box-shadow: 0 1px 5px #888;
+            -ms-box-shadow: 0 1px 5px #888;
+            -moz-box-shadow: 0 1px 5px #888;
+            box-shadow: 0 1px 5px #888;
+			text-shadow: 0 1px 1px #f5f5f5;
+		}
+			.four dl dt {
+				float: left; clear: both;
+			}
+			.four dl dd {
+				float: right;
+			}
+.front {
+	z-index: 10;
+}
+.container:hover .front {
+	z-index: 0;
+} 
+

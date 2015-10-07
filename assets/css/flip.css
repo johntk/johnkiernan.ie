@@ -1,0 +1,55 @@
+﻿
+#flipbox {
+  margin-top:30px;
+  margin-right:190px;
+  width: 500px;
+  height: 200px;
+  line-height: 200px;
+  background-color: #f43d00;
+  font-family: Ropa Sans;
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+  font-family: Ropa Sans;
+  float:right;
+  
+}
+#flipPad {
+  margin: 15px 0;
+  width: 500px;
+  text-align: center;
+  float:right;
+  margin-right:190px;
+}
+#flipPad a {
+  padding: 5px 15px;
+  background: #252525;
+  
+  border: 2px solid #252525;
+  border-radius: 2px;
+  color: #ffffff;
+  
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Ropa Sans;
+  line-height: 30px;
+  height: 30px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-box-shadow: 1px 1px 2px #999999;
+  -webkit-box-shadow: 1px 1px 2px #999999;
+  -webkit-transition-duration: 1s;
+}
+#flipPad a:hover {
+  background-color: #f94500;
+  border: 2px solid #f94500;
+  
+}
+#flipPad .revert {
+  background-color: #ff9000;
+  border: 2px solid #ff9000;
+  display: none;
+}
+
+
+
